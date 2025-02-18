@@ -1,0 +1,20 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+# Rider ignored files
+/.idea.custom-wsl2-linux-kernel.iml
+/contentModel.xml
+/projectSettingsUpdater.xml
+/modules.xml
+# Editor-based HTTP Client requests
+/httpRequests/
+# Datasource local storage ignored files
+/dataSources/
+/dataSources.local.xml
+
+# AWS configuration file
+aws.xml
+
+# Other workspace specific files
+indexLayout.xml
+vcs.xml
