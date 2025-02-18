@@ -1,6 +1,8 @@
-# Custom WSL2 Linux Kernel
+# Jonatan's custom WSL2 Linux Kernel
 
-This repository is forked from the excellent [Windows WSL2 Kernel Build Script
+This repository is a fork of
+[custom-wsl2-linux-kernel](https://github.com/LGUG2Z/custom-wsl2-linux-kernel)
+and [Windows WSL2 Kernel Build Script
 repo by
 slyfox1186](https://github.com/slyfox1186/windows-wsl2-kernel-build-script).
 
@@ -10,7 +12,7 @@ up-to-date, versioned custom builds of
 [`HIDDEV`](https://docs.kernel.org/hid/hiddev.html) and
 [`HIDRAW`](https://docs.kernel.org/hid/hidraw.html) enabled.
 
-These custom kernels builds can be used to enable full Yubikey passthrough to
+These custom kernels builds can be used to enable full YubiKey passthrough to
 WSL2 using [`usbipd`](https://github.com/dorssel/usbipd-win), with full FIDO2
 functionality.
 
@@ -28,14 +30,14 @@ WSL2-Linux-Kernel.
 ```ini
 # For example...
 [wsl2]
-kernel=C:\\Users\\YOUR_USERNAME\\Downloads\\vmlinux
+kernel=C:\\Users\\YOUR_USERNAME\\Downloads\\jonatans-custom-linux-kernel
 ```
 
 - Start a WSL2 instance
 - Check that the kernel is running with `uname -sr`
 
 ```
-Linux 5.15.123.1-lgug2z-custom-WSL2
+Linux 6.6.75.1-jonatans-custom-WSL2
 ```
 
 ## Modification
