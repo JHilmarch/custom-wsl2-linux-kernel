@@ -13,10 +13,10 @@ clear
 ##
 ##  Purpose: Build the latest Microsoft WSL2 kernel release to link to your current distros.
 ##
-##  Install info: The new kernel will be located in the root build directory; the filename will be: vmlinux
+##  Install info: The new kernel will be located in the root build directory; the filename will be: jonatans-custom-linux-kernel
 ##
-##                Place vmlinux into a folder inside your Windows "%USERPROFILE%" folder.
-##                I placed mine into the folder I created called: "%USERPROFILE%\WSL2\vmlinux"
+##                Place jonatans-custom-linux-kernel into a folder inside your Windows "%USERPROFILE%" folder.
+##                I placed mine into the folder I created called: "%USERPROFILE%\WSL2\jonatans-custom-linux-kernel"
 ##
 ##                Create a file called "%USERPROFILE%\.wslconfig" and visit the below website for
 ##                instructions on how to link the new kernel to your linux distros.
@@ -55,11 +55,11 @@ exit_fn()
     echo
     echo 'The new kernel will be located in the root build directory'
     echo
-    echo 'The filename will be called: vmlinux'
+    echo 'The filename will be called: jonatans-custom-linux-kernel'
     echo
     echo 'Place the kernel into a folder inside your "%USERPROFILE%"'
     echo
-    echo 'I placed mine into the folder I created called: "%USERPROFILE%\WSL2\vmlinux"'
+    echo 'I placed mine into the folder I created called: "%USERPROFILE%\WSL2\jonatans-custom-linux-kernel"'
     echo
     echo 'Create a file called "%USERPROFILE%\.wslconfig" and look up online how to link'
     echo 'the new kernel you copied so that your WSL2 linux Distro loads it.'
