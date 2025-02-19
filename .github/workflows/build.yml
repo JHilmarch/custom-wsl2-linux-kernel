@@ -8,6 +8,11 @@ on:
       - hotfix/*
     tags:
       - linux-msft-wsl-*
+    paths-ignore:
+      - 'README.md'
+      - '.wslconfig'
+      - '.gitignore'
+      - '.idea/**'
   pull_request: {}
   workflow_call: {}
 
